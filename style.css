@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.main-header {
+    background-image: url('images/torshov.png');
+    background-size: cover;
+    padding: 18%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.header-title {
+    margin-top: 0;
+    background-color: #1D3557;
+    padding: 7px 14px;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 0px;
+   
+}
+
+.header-title, .header-subtitle {
+    border-radius: 10px;
+}
+
+.header-subtitle {
+    background-color: #457B9D;
+    padding: 10px 50px;
+    box-shadow: 0px 0px 1px black;
+    font-weight: 300;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+
+.activities-title {
+    margin-top: 0;
+    padding: 30px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    max-width: 201px;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+.guide {
+    display: flex;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    border-bottom: 7px solid #1D3557;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.guide-img {
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .main-header {
+        padding: 18%;
+        max-width: 74%;
+    }
+
+    .header-title {
+        padding: 3px 6px;   
+        font-size: 21px;
+    }
+
+    .header-subtitle {  
+        padding: 3px 6px;
+        font-size: 14px;
+    }
+
+    .activity {
+        margin-bottom: 50px;
+    }
+
+    .activities {
+        max-width: 100%;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .guide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .guide-img {
+        max-width: 67%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-header {
+        padding: 18%;
+    }
+
+    .header-title {
+        padding: 5px 10px;
+        font-size: 24px
+    }
+
+    .header-subtitle {
+        padding: 6px 14px;
+        font-size: 19px;
+    }
+
+    .guide-img{
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .main-header {
+        padding: 18%
+    }
+    
+}  
+
